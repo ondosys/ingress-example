@@ -1,6 +1,7 @@
 kind: Pod
 apiVersion: v1
 metadata:
+  namespace: ondosys
   name: banana-app
   labels:
     app: banana
