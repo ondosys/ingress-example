@@ -17,6 +17,7 @@ spec:
 kind: Service
 apiVersion: v1
 metadata:
+  namespace: ondosys
   name: apple-service
 spec:
   selector:
